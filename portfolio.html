@@ -1,0 +1,58 @@
+<!-- File is ready for validation @ https://validator.w3.org; validated on 4/6 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css"> <!-- main style sheet -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"> <!-- reset style sheet -->
+        <meta charset="UTF-8"> <!-- character encoding -->
+        <title>Chris Guerra Portfolio</title>
+    </head>
+    <!--Start of body -->
+    <body>
+        <header> <!-- this header is a 'global element', so be sure that any changes are applied across all pages! -->
+            <div class="headerWrapper">
+                <h1 class="logo_name"> Chris Guerra</h1>
+                    <nav> 
+                    <a href= "index.html">About</a> |
+                    <a href= "portfolio.html" style="color:#4aaaa5; text-decoration:underline;">Portfolio</a> |
+                    <a href= "contact.html">Contact</a>
+                    </nav>
+            </div>
+        </header>
+        <section class="main_content_container">
+            <article class="contentWrapper">
+                <h2 class="contentHeader">Portfolio</h2>
+                <div class="flexWrapper"> <!-- this div uses Flex-Box to align the images in a 2 x 2 grid, check the .flexWrapper styles on the styles sheet -->
+                    <div class="flexItem" style="background: url(assets/images/img1.jpeg);">
+                        <div class="banner">Hangman</div>
+                    </div>
+                    <div class="flexItem" style="background: url(assets/images/img2.jpeg);">
+                        <div class="banner">RPG Game</div>
+                    </div>
+                    <div class="flexItem" style="background: url(assets/images/img3.jpeg);">
+                        <div class="banner">Trivia Game</div>
+                    </div>
+                    <div class="flexItem" style="background: url(assets/images/img4.jpeg);">
+                        <div class="banner">Rutgers Info Widget</div>
+                    </div>
+                    <div class="flexItem" style="background: url(assets/images/img5.png);">
+                        <div class="banner">Rock, Paper, Scissors</div>
+                    </div>
+                    <div class="flexItem">
+                    </div>
+                </div>
+            </article>
+            <aside class="sidebar">
+                <h3 class="sidebarHeadline">Connect with Me</h3>
+                <div class="iconContainer">
+                    <img class="socialIcon wiggle" src="assets/images/social_icons/png/if_github_square_black_107109.png" alt="github">
+                    <img class="socialIcon wiggle" src="assets/images/social_icons/png/if_linkedin_square_color_107091.png" alt="linkedin">
+                    <img class="socialIcon wiggle" src="assets/images/social_icons/png/stack_overflow.png" alt="stack overflow">
+                </div>
+            </aside>
+        </section>
+        <footer> <!-- footer is a 'global element', if any changes to content are needed, be sure to apply across all pages. -->
+            <h5>Copyright 2018 Chris Guerra</h5>
+        </footer>
+    </body>
+</html>

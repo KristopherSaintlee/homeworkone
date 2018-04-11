@@ -1,0 +1,48 @@
+<!-- File is ready for validation @ https://validator.w3.org; validated on 4/6 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css"> <!-- main style sheet -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"> <!-- reset style sheet -->
+        <meta charset="UTF-8"> <!-- character encoding -->
+        <title>Chris Guerra Portfolio</title>
+    </head>
+    <!--Start of body -->
+    <body>
+        <header> <!-- header section includes: logo (aka your Name) and the page navigation. This is a 'global element', so make sure it is applied to all pages.-->
+            <div class="headerWrapper">
+                <h1 class="logo_name"> Chris Guerra</h1>
+                <nav> 
+                    <a href= "index.html" style="color:#4aaaa5; text-decoration:underline;">About</a> |
+                    <a href= "portfolio.html">Portfolio</a> |
+                    <a href= "contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+<!-- Start of Main Content Section -->
+            <section class="main_content_container"> <!-- the class assigned is a container to ensure the enclosed elements are spaced evenly across the vertical axis, the elements below are enclosed in 'wrapper' classes to ensure the elements have correct padding and margin. -->
+                <article class="contentWrapper">
+                    <h2 class="contentHeader">About Me</h2>
+                    <img src="assets/images/Chris_Profile_Pic.jpg" alt="my profile picture" class="profilePic"> <!-- review the img tag and its required attributes, like alt -->
+                    <p class="aboutMeContent">Hello My name is Chris and I am student at UT's Bootcamp. I am a music producer and DJ and I am hoping to build and run my own website. 
+                    </p>
+                </article>
+<!-- Start of sidebar -->
+                <aside class="sidebar">
+                    <h3 class="sidebarHeadline">Connect with Me</h3>
+                    <div class="iconContainer">
+                        <img class="socialIcon wiggle" src="assets/images/social_icons/png/if_github_square_black_107109.png" alt="github">
+                        <img class="socialIcon wiggle" src="assets/images/social_icons/png/if_linkedin_square_color_107091.png" alt="linkedin">
+                        <img class="socialIcon wiggle" src="assets/images/social_icons/png/stack_overflow.png" alt="stack overflow">
+                    </div>
+                </aside>
+            </section>
+<!-- Start of footer -->
+        <footer>
+            <h5>Copyright &copy; 2018 Chris Guerra</h5>
+        </footer>
+    </body>
+</html>
+
+<!-- Additional footer notes: Footer is "sticky" by using a fixed position. The drawback to this method is that the page must have a specified height in order for the footer 
+to not overlap the preceding elements. Also, the Copyright symbol - © - is encoded above using UTF-8 -->

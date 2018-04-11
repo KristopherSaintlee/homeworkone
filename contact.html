@@ -1,0 +1,56 @@
+<!-- File is ready for validation @ https://validator.w3.org; validated on 4/6; note: the form action attribute will throw an error until you add the 
+correct action info -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css"> <!-- links the primary style sheet -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"> <!-- links the 'reset' style sheet -->
+        <meta charset="UTF-8"> <!-- sets the character set for encoding  -->
+        <title>Chris Guerra Portfolio</title>
+    </head>
+    <!--Start of body -->
+    <body>
+        <header> <!-- Start of header, this is a global element and will be displayed across all pages p -->
+            <div class="headerWrapper">
+                <h1 class="logo_name"> Chris Guerra</h1>
+                <nav> <!-- the inline styles are applied to the page on which you are on, this acts as a visual indicator for which page you are on -->
+                    <a href= "index.html">About</a> |
+                    <a href= "portfolio.html">Portfolio</a> |
+                    <a href= "contact.html" style="color:#4aaaa5; text-decoration:underline;">Contact</a>
+                </nav>
+            </div>
+        </header>
+<!-- Start of Main Content Section -->
+        <section class="main_content_container">
+            <article class="contentWrapper">
+                <h2 class="contentHeader">Contact</h2>
+                <div class="contactForm">    
+                    <form action="">
+                    Name <br>
+                    <input name="name" type="text" placeholder="John Smith">
+                    <br> <br>
+                    Email <br>
+                    <input name="email" type="text" placeholder="example@gmail.com">
+                    <br> <br>
+                    Message <br>
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <br> <br>
+                    <input type="submit">
+                </form>
+                </div>    
+            </article>
+            <aside class="sidebar">
+                <h3 class="sidebarHeadline">Connect with Me</h3>
+                <div class="iconContainer">
+                    <img class="socialIcon wiggle" src="assets/images/social_icons/png/if_github_square_black_107109.png" alt="github">
+                    <img class="socialIcon wiggle" src="assets/images/social_icons/png/if_linkedin_square_color_107091.png" alt="linkedin">
+                    <img class="socialIcon wiggle" src="assets/images/social_icons/png/stack_overflow.png" alt="stack overflow">
+                </div>
+            </aside>
+        </section>
+<!-- Start of the footer -->
+        <footer>
+            <h5>Copyright 2018 Chris Guerra</h5>
+        </footer>
+    </body>
+</html>
